@@ -25,12 +25,16 @@ layout: compress
               <img src="{{page.post-image}}" alt="{{post.title}}" id="post-image">
             </figure>
           </div>
-          <div class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile">
+          <div
+            class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile">
             {% unless page.description.size == 0 %}
-            <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p>
+            <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip
+              | strip_html | strip_newlines }}</p>
             {% endunless %}
             <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Published on
-              <b>{{ page.date | date: "%-B %d, %Y" }}</b> by <a href="{% if site.author-url %}{{site.author-url}}{% else %}{{site.url}}{{site.baseurl}}/#about{% endif %}" target="_blank"><b class="has-text-link"><u>{{site.author-name}}</u></b>
+              <b>{{ page.date | date: "%-B %d, %Y" }}</b> by <a
+                href="{% if site.author-url %}{{site.author-url}}{% else %}{{site.url}}{{site.baseurl}}/#about{% endif %}"
+                target="_blank"><b class="has-text-link"><u>{{site.author-name}}</u></b>
               </a>
             </p>
             {%- assign tags = page.tags -%}
@@ -52,11 +56,12 @@ layout: compress
             {%- endunless -%}
           </div>
         </div>
-        <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
+        <div
+          class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
           <p>{{ content }}</p>
         </div>
         {% unless site.disqus-shortname == "" %}
-        <div class="disqus-comments" id="disqus_thread"></div>
+        <!-- <div class="disqus-comments" id="disqus_thread"></div> -->
         {% endunless %}
       </div>
     </div>
