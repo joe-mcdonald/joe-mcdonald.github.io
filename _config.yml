@@ -2,16 +2,16 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'joe-mcdonald.github.io'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: /
 
 # Title of the Site
-title: What A Theme
+title: Joe McDonald
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: My Personal Website
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
@@ -22,32 +22,33 @@ heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+email: joemcd0224@gmail.com
+facebook_username: joemcdonald0224
+# twitter_username: thedevslot
+instagram_username: joe__mcd
+linkedin_username: joemcd0224
+github_username:  joe-mcdonald
+# youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+# reddit_username: /
+# behance_username: /
+# dribbble_username: /
+# spotify_username: /
 
 # Google Analytics
-google-analytics: UA-163806439-1
+# google-analytics: UA-163806439-1
 
 # Disqus
-disqus-shortname: thedevslot
+# disqus-shortname: thedevslot
 
 # Name of the Author
-author-name: TheDevsLot
+author-name: Joe McDonald
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: /assets/images/profilepic.png
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: Hello! I’m Joe, I am a second-year software engineering student at the University of Victoria. Some of my hobbies include programming, running, skiing, mountain biking, and hanging out with friends. I love trying new things.
+author-about-short: Software Engineering Student at the University of Victoria
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://github.com/joe-mcdonald
 
 # SASS
 sass:
