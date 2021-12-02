@@ -33,7 +33,7 @@ layout: compress
             {% endunless %}
             <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Published on
               <b>{{ page.date | date: "%-B %d, %Y" }}</b> by <a
-                href="{% if site.author-url %}{{site.author-url}}{% else %}/#about{% endif %}"
+                href="{% if site.author-url %}{{site.author-url}}{% else %}{{site.url}}{{site.baseurl}}/#about{% endif %}"
                 target="_blank"><b class="has-text-link"><u>{{site.author-name}}</u></b>
               </a>
             </p>
