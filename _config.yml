@@ -4,7 +4,7 @@ markdown: kramdown
 # URL of the Site
 url: 'joemcd.ca'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl:
+baseurl: ''
 
 # Title of the Site
 title: Joe McDonald
