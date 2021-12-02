@@ -1,9 +1,9 @@
-- name: Rock Paper Scissors
-  image: ''
-  link: 'https://github.com/joe-mcdonald/rockpaperscissors'
-  description: >-
-    This is a Rock Paper Scissors game that I made in Python. It features user
-    input and you get to play against the computer. A nice thing about playing
-    against the computer is that you will never have the same choice, so the
-    game won't go on forever. You also have the choice of playing again without
-    having to restart the program. Enjoy!
+# - name: Rock Paper Scissors
+#   image: ''
+#   link: 'https://github.com/joe-mcdonald/rockpaperscissors'
+#   description: >-
+#     This is a Rock Paper Scissors game that I made in Python. It features user
+#     input and you get to play against the computer. A nice thing about playing
+#     against the computer is that you will never have the same choice, so the
+#     game won't go on forever. You also have the choice of playing again without
+#     having to restart the program. Enjoy!
