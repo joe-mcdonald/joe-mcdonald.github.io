@@ -7,7 +7,7 @@
         {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/blog' %}
         <a href="{{sitepage.url | absolute_url}}"
             class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
-            {{sitepage.title}}
+            <!-- {{sitepage.title}} -->
         </a>
         {% endunless %}
         {% endfor %}
