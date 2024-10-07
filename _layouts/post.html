@@ -33,27 +33,27 @@ layout: compress
             {% endunless %}
             <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Published on
               <b>{{ page.date | date: "%-B %d, %Y" }}</b> by <a
-                href="{% if site.author-url %}{{site.author-url}}{% else %}{{site.url}}{{site.baseurl}}/#about{% endif %}"
+                href="{% if site.author-url %}{{site.author-url}}{% else %}/#about{% endif %}"
                 target="_blank"><b class="has-text-link"><u>{{site.author-name}}</u></b>
               </a>
             </p>
             {%- assign tags = page.tags -%}
             {%- unless tags.size == 0 -%}
-            <!-- <p class="subtitle is-uppercase"> # post tags
+            <p class="subtitle is-uppercase">
               <i class="fas fa-tags"></i>
               {% assign i = 0 %}
               {% for tags in page.tags %}
               <span class="tag is-link">{{page.tags[i]}}</span>
               {% assign i = i | plus:1 %}
               {% endfor %}
-            </p> -->
+            </p>
             {%- endunless -%}
             {% assign words = content | number_of_words %}
             {%- unless content.size == 0 -%}
-            <!-- <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link"> # reading length
+            <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
                 {{ words | divided_by:180 }} min
               </b>READ</p>
-            {%- endunless -%} -->
+            {%- endunless -%}
           </div>
         </div>
         <div
