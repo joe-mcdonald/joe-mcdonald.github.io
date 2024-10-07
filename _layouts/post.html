@@ -20,11 +20,13 @@ layout: compress
         </a>
         <hr class="has-background-black">
         <div class="columns is-variable is-5">
+        {% if page.post-image != "" %}
           <div class="column is-6">
             <figure class="image is-16by9 has-shadow">
-              <img src="{{page.post-image}}" alt="{{post.title}}" id="post-image">
+                <img src="{{page.post-image}}" alt="{{post.title}}" id="post-image">
             </figure>
           </div>
+        {% endif %}
           <div
             class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile">
             {% unless page.description.size == 0 %}
