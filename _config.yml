@@ -2,7 +2,7 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'joemcd.ca'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: ''
 
@@ -15,12 +15,11 @@ site-image: /assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
-favicon-url: /assets/images/profilepic.png
+favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: /assets/images/anotherpic.jpg
+heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 
-# https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: joemcd0224@gmail.com
@@ -46,7 +45,7 @@ author-name: Joe McDonald
 # URL for the Image of the Author
 author-image: /assets/images/profilepic.png
 # 60 Words About the Author
-author-about: Hello! I'm Joe, I am a fourth-year software engineering student at the University of Victoria. Some of my hobbies include programming, golfing, skiing, mountain biking, and hanging out with friends. I love trying new things.
+author-about: Hello! I’m Joe, I am a second-year software engineering student at the University of Victoria. Some of my hobbies include programming, running, skiing, mountain biking, and hanging out with friends. I love trying new things.
 author-about-short: Software Engineering Student at the University of Victoria
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/joe-mcdonald
@@ -62,7 +61,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "posts/:title"
+permalink: "blog/:title"
 
 # Compress
 compress_html:
