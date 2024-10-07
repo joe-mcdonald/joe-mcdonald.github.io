@@ -11,15 +11,16 @@ title: Joe McDonald
 # Description of the Site
 description: My Personal Website
 # URL of Image of the Site
-site-image: /assets/images/meta.jpg
+site-image: /assets/images/meta.png
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: /assets/images/shoot_content.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: /assets/images/anotherpic.jpg
 
+# https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: joemcd0224@gmail.com
@@ -43,7 +44,7 @@ github_username:  joe-mcdonald
 # Name of the Author
 author-name: Joe McDonald
 # URL for the Image of the Author
-author-image: /assets/images/profilepic.png
+author-image: /assets/images/shoot_content.png
 # 60 Words About the Author
 author-about: Hello! I’m Joe, I am a software engineering student at the University of Victoria. Some of my hobbies include programming, running, skiing, golfing, and hanging out with friends.
 author-about-short: Software Engineering Student at the University of Victoria

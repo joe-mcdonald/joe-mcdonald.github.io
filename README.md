@@ -37,7 +37,6 @@
 ---
 
 ### Content Credits :green_heart:
-* [Hero Image](https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) used as a background image in the very first section of Homepage.
 * [Author Image](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png) used in the Author Section.
 * [Font Awesome](https://fontawesome.com/)
 * [Poppins Font](https://fonts.google.com/specimen/Poppins)
