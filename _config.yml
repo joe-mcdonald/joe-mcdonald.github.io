@@ -60,11 +60,10 @@ sass:
 plugins:
   - jekyll-admin
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Permalink
 permalink: "blog/:title"
-permalink: "/scorecard/"
-
 
 # Compress
 compress_html:

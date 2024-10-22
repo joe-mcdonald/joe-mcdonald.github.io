@@ -41,6 +41,8 @@ GEM
       sinatra-contrib (~> 1.4)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-redirect-from (0.16.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-watch (2.2.1)
@@ -102,6 +104,7 @@ DEPENDENCIES
   jekyll
   jekyll-admin (= 0.9.0)
   jekyll-feed
+  jekyll-redirect-from
   rack
   tzinfo (~> 1.2)
   tzinfo-data
