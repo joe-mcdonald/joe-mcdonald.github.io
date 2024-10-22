@@ -63,6 +63,8 @@ plugins:
 
 # Permalink
 permalink: "blog/:title"
+permalink: "/scorecard/"
+
 
 # Compress
 compress_html:
