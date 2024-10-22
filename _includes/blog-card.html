@@ -5,8 +5,8 @@
         <div class="image is-16by9" style="background-image: url({{post.post-image}});"></div>
     </div>
     {% endif %}
-    <!-- display image and text side by side if there is an image -->
-    <a href="{{post.url | absolute_url}}">
+    <!-- display image and text side by side if there is an image {{post.url | absolute_url}} -->
+    <a href="{{post.url}}">
         <div class="column has-text-left-desktop has-text-left-tablet">
             <h1 class="title is-size-4-touch">{{post.title}}</h1>
             <div class="content has-text-grey">
